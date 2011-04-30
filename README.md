@@ -14,9 +14,13 @@ add the following to your .emacs:
  
 add configuration: 
 
+    ;; jenkmon ci server/pattern list
     (setq jenkmon-superviser-list 
       '(("ci-server01" "pattern01")
          ("ci-server02" "pattern02")))
+    ;; specify the upate interval in sec (here 60 seconds)
+    (setq jenkmon-update-interval 60)
+
  
 note: the pattern is considered as a elisp regex
 
@@ -29,7 +33,7 @@ Infos
 -----
 Jenkmon uses the Jenkins remote api to get the necessary information.
 The remote api is described here [Jenkins Remote API](https://wiki.jenkins-ci.org/display/JENKINS/Remote+access+API).
-Further more org-mode is used to display job infos.
+Further more org-mode is used to display job infos (ci-server and jobs are displayed as urls).
 
 
     ==============
