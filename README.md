@@ -12,7 +12,7 @@ add the following to your .emacs:
     (add-to-list 'load-path "~/.emacs/")
     (require 'jenkmon)
  
-add configuration: 
+add configuration to your .emacs: 
 
     ;; jenkmon ci server/pattern list
     (setq jenkmon-superviser-list 
