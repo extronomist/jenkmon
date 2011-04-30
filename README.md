@@ -33,7 +33,7 @@ Infos
 -----
 Jenkmon uses the Jenkins remote api to get the necessary information.
 The remote api is described here [Jenkins Remote API](https://wiki.jenkins-ci.org/display/JENKINS/Remote+access+API).
-Further more org-mode is used to display job infos (ci-server and jobs are displayed as urls).
+Further more [org-mode](http://orgmode.org) is used to display job infos (ci-server and jobs are displayed as urls).
 
 
     ==============
